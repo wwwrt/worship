@@ -41,3 +41,7 @@ function deleteSong(index) {
   // Reîncarcă lista de cântări pentru a reflecta schimbarea
   loadSongs();
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  loadSongs();
+});
