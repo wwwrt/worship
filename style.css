@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#songForm {
+    margin-bottom: 20px;
+}
+
+#songForm input[type=text] {
+    margin: 0 10px 0 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#songForm button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#songsList {
+    list-style: none;
+    padding: 0;
+}
+
+#songsList li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#songsList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#songsList li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#songsList li button:focus {
+    outline: none;
+}
+
